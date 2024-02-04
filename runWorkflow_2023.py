@@ -62,7 +62,7 @@ if s1Conf:
         cmd = "hltGetConfiguration %s --globaltag %s --input %s --customise %s %s > hlt_%s.py"%(gRunMenu, typeIC[t], inFile_, custom, common, t)
         print(cmd)
         os.system(cmd)
-        #os.system("cmsRun hlt_%s.py"%t)
+        print("\ncmsRun hlt_%s.py\n"%t)
 
 #----------------------------------------
 # Step-2: Crab submission 

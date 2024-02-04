@@ -1,8 +1,9 @@
 # cms-egamma-reg
 EGamma HLT energy regression
 
-#For Run 3 (2023)
+# For Run 3 (2023)
 * git clone git@github.com:ravindkv/cms-egamma-reg.git
+* cd cms-egamma-reg/
 * source setWorkflow_2023.sh
 
 # When the setup is done
